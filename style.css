@@ -1,0 +1,33 @@
+.titulo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+#tiempo-restante{
+    font-family: "Open Sans", sans-serif;
+    width: 30%;
+    color: rgb(97, 97, 99);
+}
+
+#mensaje{
+    font-family: "Open Sans", sans-serif;
+    width: 30%;
+    background-color: rgb(255, 248, 205);
+}
+
+#boton {
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(127, 172, 255);
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloc con Temporizador</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <script src="main.js"></script>
+    <h1 class="titulo">Bloc De Notas</h1>
+    <form action="">
+        <div>
+            <label for="cuadro de texto">El mensaje se borrara 10 min despues de ser escrito</label><br>
+
+            <input type="text" id="tiempo-restante" value="El bloc de notas está vacio" readonly><br>
+
+            <textarea name="" id="mensaje" cols="30" rows="10" onchange="activarTemp()"></textarea>
+        </div>
+        <div>
+            <input type="button" id="boton" value="Reiniciar " onclick="reinicio() ">
+        </div>
+    </form>
+</body>
+</html>
