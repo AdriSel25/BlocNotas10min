@@ -1,6 +1,7 @@
 let temporizador;
 let cont = 1;
-
+let hola;
+///dasd
 function activarTemp(){
     if (cont !=1 ){
         clearInterval(temporizador);
